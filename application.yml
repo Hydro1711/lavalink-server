@@ -1,5 +1,5 @@
 server:
-  port: 2333
+  port: ${PORT}
 lavalink:
   server:
     password: "supersecret"
@@ -7,3 +7,4 @@ logging:
   file:
     max-history: 30
     max-size: 1GB
+
