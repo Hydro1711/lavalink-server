@@ -1,10 +1,19 @@
 server:
-  port: ${PORT}
+  port: ${PORT}   # Render assigns this automatically
+
 lavalink:
   server:
-    password: "supersecret"
+    password: "supersecret"   # your Lavalink password
+    sources:
+      youtube: true           # allow YouTube
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false            # disable local files
+
 logging:
   file:
     max-history: 30
     max-size: 1GB
-
