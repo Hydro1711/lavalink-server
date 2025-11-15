@@ -1,0 +1,9 @@
+server:
+  port: 2333
+lavalink:
+  server:
+    password: "supersecret"
+logging:
+  file:
+    max-history: 30
+    max-size: 1GB
