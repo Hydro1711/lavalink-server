@@ -1,17 +1,13 @@
 server:
-  port: ${PORT}   # Render assigns this automatically
+  port: ${PORT}
 
 lavalink:
   server:
-    password: "supersecret"   # your Lavalink password
+    password: "supersecret"
     sources:
-      youtube: true           # allow YouTube
-      bandcamp: true
-      soundcloud: true
-      twitch: true
-      vimeo: true
-      http: true
-      local: false            # disable local files
+      youtube: true
+    ws:
+      enabled: true
 
 logging:
   file:
